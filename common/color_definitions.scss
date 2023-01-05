@@ -3,3 +3,12 @@ $simple-theme-link-color: dark-light-choose(#3b5998, #7e97cd);
 :root {
   --simple-theme-link-color: #{$simple-theme-link-color};
 }
+
+// Tee's settings
+section.about.stats {
+  display: none;
+}
+
+[data-topic-id="219"] .badge.badge-notification.clicks {
+  display: none;
+}
